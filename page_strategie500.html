@@ -95,9 +95,6 @@
             <li>rien</li>
         </ul>
 
-
-        
-
         <h3>la fenetre de l'indicateur 1</h3>
         <h4>relative strength index</h4>
         <p>paramètres</p>
@@ -134,66 +131,115 @@
         </ul>
 
         <h5 class="condition">après avoir fini les paramétrage ça doit ressemblé au photo</h5>
-        <h5 class="condition">Toujour bougé le graphiquede droite vers gauche ou de gauche vers droit pour voir si le MACD ou le MA son toujours collé au niveaude 90 ou au niveau de 10</h5>
         <div class="photo">
             <img src="/asset/image/ST500.jpg" alt="">
             <img src="/asset/image/ST500_1.jpg" alt="">
         </div> 
-        <h5 class="condition">Zoomé votre graphique au niveau 2 ou niveau 3.
-            conditions a respecter pour être toujours en gains</h5> 
 
-        <p class="miniecran">Utilisation de la stratégie sur crash  <samp class="buy">buy</samp></p> 
+        <h1>strategie 3 boom & crash 500</h1>
 
-        <h5 class="condition">confirmation 1 pour prendre position</h5> 
-        <ol>
-            <li>Le MA du MACD doit être confondu avec le niveau 10, obligatoirement</li> 
-            <li>Lorsque le MA bleu touche le MA rouge attendre 3 bougies.</li>
-            <li>Prendre position à la 4eme (quatrième) bougies</li>
-            <li>Prendre 2 (deux) bougies et fermer la position</li> 
-        </ol>
-
-        <h5 class="condition">confirmation 2 pour prendre position</h5> 
-        <ol>
-            <li>Le MA orange doit couper le MA rose, et le MA orange doit être au-dessus du MA rose, attendre 5 bougies</li>
-            <li>Prise de position à la 6eme bougie</li>
-            <li>Prendre 3 bougies et fermer le Trade</li>
-        </ol>
-
-        <h5 class="condition">confirmation 3 pour prendre position</h5> 
-        <ol>
-            <li>Lorsque la confirmation 2 a été réalisé attendre 1 spike</li>
-            <li>Après le spike il doit avoir un carré ou plus entre le pic et le MA orange</li>
-            <li>Attendre que le MA bleu touche le MA rouge attendre 2 bougies.</li>
-            <li>Prise de position à la 3eme bougie</li>
-            <li>Prendre 2 bougies et fermer le Trade</li>
-        </ol>
+        <h3>un principal graphique</h3>
+        <h4>aligator</h4>
+        <p>paramètres</p>
+        <ul>
+            <li>Période des mâchoire : 13</li>
+            <li>Décalage des mâchoire: 8</li>
+            <li>periode des dents: 8</li>
+            <li>Décalage des dents: 5</li>
+            <li>periode des lèvres: 5</li>
+            <li>Décalage des lèvres: 3</li>
+            <li>Méthode : lissé </li>
+            <li>Appliquer à : Median Price(HL/2)</li>
+        </ul>
+        <p>style</p>
+        <ul>
+            <li>mâchoire 2 pixels  bleu</li>
+            <li>dents 2 pixels  rouge</li>
+            <li>lèvres 2 pixels  vert</li>
+        </ul>
+        <p>niveau</p>
+        <ul>
+            <li>rien</li>
+        </ul>
+        <h4>Moving Average</h4>
+        <p>paramètres</p>
+        <ul>
+            <li>Période : 200</li>
+            <li>Décalage : 0</li>
+            <li>Méthode : exponentiel </li>
+            <li>Appliquer à : close</li>
+        </ul>
+        <p>style</p>
+        <ul>
+            <li>2 pixels  orange</li>
+        </ul>
+        <p>niveau</p>
+        <ul>
+            <li>rien</li>
+        </ul>
         
-       <p class="miniecran">Utilisation de la stratégie sur BOOM  <samp class="sell">sell</samp></p>
 
-       <h5 class="condition">confirmation 1 pour prendre position</h5> 
-       <ol>
-           <li>Le MA du MACD doit être confondu avec le niveau 90, obligatoirement </li> 
-           <li>Lorsque le MA rouge touche le MA bleu attendre 3 bougies.</li>
-           <li>Prendre position à la 4eme (quatrième) bougies</li>
-           <li>Prendre 2 (deux) bougies et fermer la position</li> 
-       </ol>
+        <h3>la fenetre de l'indicateur 1</h3>
+        <h4>relative strength index</h4>
+        <p>paramètres</p>
+        <ul>
+            <li>periode : 7</li>
+            <li>appliquer à : close</li>
+        </ul>
+        <p>style</p>
+        <ul>
+            <li>2 pixels : meme couleur que le graphique</li>
+        </ul>
+        <p>niveau</p>
+        <ul>
+            <li>80,20,50</li>
+        </ul>
+        <h4>ichimoku kinko hyo</h4>
+        <p>paramètres</p>
+        <ul>
+            <li>tenkan sen : 9</li>
+            <li>kinjun sen : 26</li>
+            <li>senkou span B : 52</li>
+        </ul>
+        <p>style</p>
+        <ul>
+            <li>tenkan sen : 2 pixels  rouge</li>
+            <li>kinjun sen : 2 pixels bleu</li>
+            <li>up kumo : 1 pixels même couleur que le graphique</li>
+            <li>down kumo : 1 pixels même couleur que le graphique</li>
+            <li>chikou span :2 pixels vert</li>
+        </ul>
+        <p>niveau</p>
+        <ul>
+            <li>rien</li>
+        </ul>
+        <h3>la fenetre de l'indicateur 3</h3>
+        <h4>relative strength index</h4>
+        <p>paramètres</p>
+        <ul>
+            <li>periode : 14</li>
+            <li>appliquer à : close</li>
+        </ul>
+        <p>style</p>
+        <ul>
+            <li>2 pixels : bleu</li>
+        </ul>
+        <p>niveau</p>
+        <ul>
+            <li>30,50,70</li>
+        </ul>
 
-       <h5 class="condition">confirmation 2 pour prendre position</h5> 
-        <ol>
-            <li>Le MA rose doit couper le MA orange, et le MA rose doit être au-dessus du MA rose, attendre 5 bougies</li> 
-            <li>Prise de position à la 6eme bougie</li>
-            <li>Prendre 3 bougies et fermer le Trade</li>
-        </ol>
+        <h5 class="condition">après avoir fini les paramétrage ça doit ressemblé au photo</h5>
 
-        <h5 class="condition">confirmation 3 pour prendre position</h5> 
-        <ol>
-            <li>Lorsque la confirmation 2 a été réalisé attendre 1 spike </li> 
-            <li>Après le spike il doit avoir un carré ou plus entre le pic et le MA orange</li>
-            <li>Attendre que le MA rouge touche le MA bleu attendre 2 bougies.</li>
-            <li>Prise de position à la 3eme bougie</li> 
-            <li>Prendre 2 bougies et fermer le Trade</li> 
-        </ol>
+        <div class="photo">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div> 
        
     </section>
 </body>
 </html>
+
+
+
+
